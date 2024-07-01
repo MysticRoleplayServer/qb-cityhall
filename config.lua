@@ -3,9 +3,14 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
-    ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
-    ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
-    ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
+    ['garbage'] = {     ['label'] = 'Garbage Collector',          ['isManaged'] = false },
+    ['bus'] = {         ['label'] = 'Dachound Bus Driver',        ['isManaged'] = false },
+    ['gruppe'] = {      ['label'] = 'Gruppe Sechs Driver',        ['isManaged'] = false },
+    ['builder'] = {     ['label'] = 'Stone Sober Construction',   ['isManaged'] = false },
+    ['lumberjack'] = {  ['label'] = 'Woodland Wonders Lumber',    ['isManaged'] = false },
+    ['miner'] = {       ['label'] = 'Tunnel Titans Mining',       ['isManaged'] = false },
+    ['oilrig'] = {      ['label'] = 'Drilling Dynamics Oil Rig',  ['isManaged'] = false },
+    ['window'] = {      ['label'] = 'Crystal Clean View Windows', ['isManaged'] = false },
 }
 
 Config.Cityhalls = {
@@ -15,9 +20,9 @@ Config.Cityhalls = {
         blipData = {
             sprite = 487,
             display = 4,
-            scale = 0.70,
+            scale = 0.80,
             colour = 0,
-            title = 'City Services'
+            title = 'Los Santos Job Center'
         },
         licenses = {
             ['id_card'] = {
