@@ -5,7 +5,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
     ['garbage'] = {     ['label'] = 'Garbage Collector',          ['isManaged'] = false },
     ['bus'] = {         ['label'] = 'Dachound Bus Driver',        ['isManaged'] = false },
-    ['gruppe'] = {      ['label'] = 'Gruppe Sechs Driver',        ['isManaged'] = false },
+    ['gruppe'] = {      ['label'] = 'Gruppe 6 Driver',        ['isManaged'] = false },
     ['builder'] = {     ['label'] = 'Stone Sober Construction',   ['isManaged'] = false },
     ['lumberjack'] = {  ['label'] = 'Woodland Wonders Lumber',    ['isManaged'] = false },
     ['miner'] = {       ['label'] = 'Tunnel Titans Mining',       ['isManaged'] = false },
@@ -18,10 +18,10 @@ Config.Cityhalls = {
         coords = vec3(-234.82, -922.28, 31.31),
         showBlip = true,
         blipData = {
-            sprite = 487,
+            sprite = 590,
             display = 4,
-            scale = 0.80,
-            colour = 0,
+            scale = 0.8,
+            colour = 1,
             title = 'Los Santos Job Center'
         },
         licenses = {
