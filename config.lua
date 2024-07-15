@@ -5,7 +5,7 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
     ['garbage'] = {     ['label'] = 'Garbage Collector',          ['isManaged'] = false },
     ['bus'] = {         ['label'] = 'Dachound Bus Driver',        ['isManaged'] = false },
-    ['gruppe'] = {      ['label'] = 'Gruppe 6 Driver',        ['isManaged'] = false },
+    ['gruppe'] = {      ['label'] = 'Gruppe 6 Driver',            ['isManaged'] = false },
     ['builder'] = {     ['label'] = 'Stone Sober Construction',   ['isManaged'] = false },
     ['lumberjack'] = {  ['label'] = 'Woodland Wonders Lumber',    ['isManaged'] = false },
     ['miner'] = {       ['label'] = 'Tunnel Titans Mining',       ['isManaged'] = false },
@@ -31,12 +31,12 @@ Config.Cityhalls = {
             },
             ['driver_license'] = {
                 label = 'Driver License',
-                cost = 50,
+                cost = 150,
                 metadata = 'driver'
             },
             ['weaponlicense'] = {
                 label = 'Weapon License',
-                cost = 50,
+                cost = 500,
                 metadata = 'weapon'
             },
         }
