@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
+Config.UseTarget = false -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
     ['garbage'] = {     ['label'] = 'Garbage Collector',          ['isManaged'] = false },
@@ -15,7 +15,7 @@ Config.AvailableJobs = {                                     -- Only used when n
 
 Config.Cityhalls = {
     { -- Cityhall 1
-        coords = vec3(-234.82, -922.28, 31.31),
+        coords = vec3(318.49, -1640.34, 31.54),
         showBlip = true,
         blipData = {
             sprite = 590,
@@ -66,12 +66,12 @@ Config.Peds = {
     -- Cityhall Ped
     {
         model = 'a_m_m_hasjew_01',
-        coords = vec4(-234.82, -922.28, 31.31, 338.95),
+        coords = vec4(318.49, -1640.34, 31.54, 318.72),
         scenario = 'WORLD_HUMAN_STAND_MOBILE',
         cityhall = true,
         zoneOptions = { -- Used for when UseTarget is false
-            length = 3.0,
-            width = 3.0,
+            length = 4.0,
+            width = 4.0,
             debugPoly = false
         }
     },
